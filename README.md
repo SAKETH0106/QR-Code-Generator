@@ -9,10 +9,6 @@ A simple web app that generates QR codes from text or URLs and lets users downlo
 - Download the QR code as a PNG image
 - Clean, responsive card-style UI
 
-## Screenshot
-
-![QR Code Generator Screenshot](QR-Code.png)
-
 ## Tech Stack
 
 - HTML
@@ -39,21 +35,3 @@ A simple web app that generates QR codes from text or URLs and lets users downlo
 └── README.md
 ```
 
-## Run Locally
-
-Because this is a front-end project, you can open the HTML file directly in a browser. If you prefer a local server, run:
-
-```bash
-python3 -m http.server
-```
-
-Then open:
-
-```bash
-http://localhost:8000
-```
-
-## Notes
-
-This project uses the public QR code generation service from `api.qrserver.com` to create the QR image dynamically. Which helps all the people to generate the QR-code for free.
-#
